@@ -8,11 +8,11 @@ Next.js와 Emotion.js 기본기 학습
 <br><br>
 
 ## 사용 기술 및 라이브러리
-Javascript
-Axios
-React
-Next.js
-Emotion.js
+- Javascript
+- Axios
+- React
+- Next.js
+- Emotion.js
 
 <br><br>
 
@@ -89,8 +89,6 @@ useEffect(()=>{
     query: index,
   });
 }}>
-
-//
 ```
 
 <br><br>
