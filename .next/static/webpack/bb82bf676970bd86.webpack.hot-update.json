@@ -1,0 +1,1 @@
+{"c":["pages/detail/[...params]","webpack"],"r":["pages/index"],"m":["./components/Header.js","./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2FUsers%2Fhayeonkim%2FDesktop%2FProject%2Fnextjs-emotionjs%2Fglam%2Fpages%2Findex.js&page=%2F!","./pages/index.js","./public/logo.png"]}
