@@ -1,7 +1,11 @@
-# 모바일 앱 'Glam'의 메인페이지 클론 코딩을 통하여 <b>next.js + emotion.js 기본기 연습</b>
+# next.js + emotion.js 기본기 연습
+모바일 앱 'Glam'의 메인페이지 클론 코딩을 통하여 next.js와 emotion.js 기본기 연습
+<br><br>
 
 ## 프로젝트 목표
 Next.js와 Emotion.js 기본기 학습
+
+<br><br>
 
 ## 사용 기술 및 라이브러리
 Javascript
@@ -9,6 +13,8 @@ Axios
 React
 Next.js
 Emotion.js
+
+<br><br>
 
 ## 주요 학습 내용
 ### 1. _app.js 파일 활용을 통하여 공통 레이아웃 적용
@@ -50,7 +56,7 @@ export default function Layout({ children }) {
 }
 ```
 
-<hr>
+<br><br>
 
 ### 2. API Route기능을 활용해 API 요청 테스트 
 Server-Side 기능을 제공하는 장점을 활용하여, Backend 없이 자체 API 요청 및 데이터 저장 테스트
@@ -69,7 +75,7 @@ useEffect(()=>{
 },[])
 ```
 
-<hr>
+<br><br>
 
 ### 3. Router 기능 활용
 - next.js의 useRouter 기능 활용하여 페이지 라우팅 처리
@@ -87,6 +93,7 @@ useEffect(()=>{
 //
 ```
 
+<br><br>
 
 ### 그 외 스크크립트 활용 및 기본 기능 구현
 #### 추천 카드 삭제 기능 구현
@@ -96,10 +103,10 @@ useEffect(()=>{
   return _new;
 })}><i css={closeIcon}>싫어요</i></SquareButton>
 ```
+
 <br>
 
-#### 슬라이드 공통으로 사용 가능하도록 컴포넌트화 : 메인, 상세 동시 사용
-#### 슬라이더 기능 및 슬라이더 내비게이션 기능 구현
+#### 슬라이드 공통으로 사용 가능하도록 컴포넌트화 및 슬라이더 내비게이션 기능 구현
 ```javascript
 /**
    * 슬라이더 translateX 값 변경시키는 함수
