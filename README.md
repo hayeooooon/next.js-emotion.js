@@ -93,7 +93,7 @@ useEffect(()=>{
 
 <br><br>
 
-### 그 외 스크크립트 활용 및 기본 기능 구현
+### 4. 그 외 스크크립트 활용 및 기본 기능 구현
 #### 추천 카드 삭제 기능 구현
 ```javascript
 <SquareButton bgColor={'gray'} icon={true} clickEvent={()=>setSuggestion((prev)=>{
